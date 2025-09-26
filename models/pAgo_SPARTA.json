@@ -1,0 +1,118 @@
+{
+  "name": "pAgo_SPARTA",
+  "func_units": [
+    {
+      "name": "pAgo_SPARTA",
+      "presence": "mandatory",
+      "families": [
+        {
+          "name": "pAgo_SPARTA",
+          "presence": "mandatory",
+          "parameters": {},
+          "exchangeable": [
+            "pAgo__pAgo_SPARTA"
+          ]
+        },
+        {
+          "name": "TIRAPAZ",
+          "presence": "accessory",
+          "parameters": {},
+          "exchangeable": [
+            "pAgo__TIRAPAZ"
+          ]
+        },
+        {
+          "name": "SIR2APAZ",
+          "presence": "forbidden",
+          "parameters": {},
+          "exchangeable": [
+            "pAgo__SIR2APAZ"
+          ]
+        },
+        {
+          "name": "XAPAZ",
+          "presence": "forbidden",
+          "parameters": {},
+          "exchangeable": [
+            "pAgo__XAPAZ"
+          ]
+        },
+        {
+          "name": "EabAgaM",
+          "presence": "forbidden",
+          "parameters": {},
+          "exchangeable": [
+            "pAgo__EabAgaM"
+          ]
+        },
+        {
+          "name": "GbbAgaS",
+          "presence": "forbidden",
+          "parameters": {},
+          "exchangeable": [
+            "pAgo__GbbAgaS"
+          ]
+        },
+        {
+          "name": "EcAgaN",
+          "presence": "forbidden",
+          "parameters": {},
+          "exchangeable": [
+            "pAgo__EcAgaN"
+          ]
+        },
+        {
+          "name": "pAgo_LongA",
+          "presence": "forbidden",
+          "parameters": {},
+          "exchangeable": [
+            "pAgo__pAgo_LongA"
+          ]
+        },
+        {
+          "name": "pAgo_LongB",
+          "presence": "forbidden",
+          "parameters": {},
+          "exchangeable": [
+            "pAgo__pAgo_LongB"
+          ]
+        },
+        {
+          "name": "pAgo_S1A",
+          "presence": "forbidden",
+          "parameters": {},
+          "exchangeable": [
+            "pAgo__pAgo_S1A"
+          ]
+        },
+        {
+          "name": "pAgo_S1B",
+          "presence": "forbidden",
+          "parameters": {},
+          "exchangeable": [
+            "pAgo__pAgo_S1B"
+          ]
+        },
+        {
+          "name": "pAgo_S2B",
+          "presence": "forbidden",
+          "parameters": {},
+          "exchangeable": [
+            "pAgo__pAgo_S2B"
+          ]
+        }
+      ],
+      "parameters": {
+        "transitivity": 5,
+        "min_mandatory": 1,
+        "min_total": 1
+      }
+    }
+  ],
+  "parameters": {
+    "transitivity": 0,
+    "window": 1,
+    "min_mandatory": 1,
+    "min_total": 1
+  }
+}

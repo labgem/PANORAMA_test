@@ -1,0 +1,52 @@
+{
+  "name": "RM_Type_IIG",
+  "func_units": [
+    {
+      "name": "RM_Type_IIG",
+      "presence": "mandatory",
+      "families": [
+        {
+          "name": "Type_IIG",
+          "presence": "mandatory",
+          "parameters": {},
+          "exchangeable": [
+            "RM_Type_IIG__Type_IIG"
+          ]
+        },
+        {
+          "name": "drmB",
+          "presence": "forbidden",
+          "parameters": {},
+          "exchangeable": [
+            "DISARM__drmB"
+          ]
+        },
+        {
+          "name": "pglZB",
+          "presence": "forbidden",
+          "parameters": {},
+          "exchangeable": [
+            "pglZA",
+            "BREX__pglZ3",
+            "BREX__pglZA",
+            "pglZ2",
+            "BREX__pglZ2",
+            "BREX__pglZB",
+            "pglZ3"
+          ]
+        }
+      ],
+      "parameters": {
+        "transitivity": 5,
+        "min_mandatory": 1,
+        "min_total": 1
+      }
+    }
+  ],
+  "parameters": {
+    "transitivity": 0,
+    "window": 1,
+    "min_mandatory": 1,
+    "min_total": 1
+  }
+}

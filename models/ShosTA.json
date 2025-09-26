@@ -1,0 +1,38 @@
+{
+  "name": "ShosTA",
+  "func_units": [
+    {
+      "name": "ShosTA",
+      "presence": "mandatory",
+      "families": [
+        {
+          "name": "ShosA",
+          "presence": "mandatory",
+          "parameters": {},
+          "exchangeable": [
+            "ShosTA__ShosA"
+          ]
+        },
+        {
+          "name": "ShosT",
+          "presence": "mandatory",
+          "parameters": {},
+          "exchangeable": [
+            "ShosTA__ShosT"
+          ]
+        }
+      ],
+      "parameters": {
+        "transitivity": 5,
+        "min_mandatory": 2,
+        "min_total": 2
+      }
+    }
+  ],
+  "parameters": {
+    "transitivity": 0,
+    "window": 1,
+    "min_mandatory": 1,
+    "min_total": 1
+  }
+}

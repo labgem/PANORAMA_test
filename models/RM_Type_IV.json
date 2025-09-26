@@ -1,0 +1,30 @@
+{
+  "name": "RM_Type_IV",
+  "func_units": [
+    {
+      "name": "RM_Type_IV",
+      "presence": "mandatory",
+      "families": [
+        {
+          "name": "Type_IV_REases",
+          "presence": "mandatory",
+          "parameters": {},
+          "exchangeable": [
+            "RM_Type_IV__Type_IV_REases"
+          ]
+        }
+      ],
+      "parameters": {
+        "transitivity": 5,
+        "min_mandatory": 1,
+        "min_total": 1
+      }
+    }
+  ],
+  "parameters": {
+    "transitivity": 0,
+    "window": 1,
+    "min_mandatory": 1,
+    "min_total": 1
+  }
+}

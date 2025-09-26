@@ -1,0 +1,48 @@
+{
+  "name": "RM_Type_I",
+  "func_units": [
+    {
+      "name": "RM_Type_I",
+      "presence": "mandatory",
+      "families": [
+        {
+          "name": "Type_I_MTases",
+          "presence": "mandatory",
+          "parameters": {},
+          "exchangeable": [
+            "EcoprrI",
+            "PrrC__EcoprrI",
+            "RM__Type_I_MTases"
+          ]
+        },
+        {
+          "name": "Type_I_REases",
+          "presence": "mandatory",
+          "parameters": {},
+          "exchangeable": [
+            "RM__Type_I_REases"
+          ]
+        },
+        {
+          "name": "Type_I_S",
+          "presence": "accessory",
+          "parameters": {},
+          "exchangeable": [
+            "RM__Type_I_S"
+          ]
+        }
+      ],
+      "parameters": {
+        "transitivity": 5,
+        "min_mandatory": 2,
+        "min_total": 2
+      }
+    }
+  ],
+  "parameters": {
+    "transitivity": 0,
+    "window": 1,
+    "min_mandatory": 1,
+    "min_total": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "PsyrTA",
+  "func_units": [
+    {
+      "name": "PsyrTA",
+      "presence": "mandatory",
+      "families": [
+        {
+          "name": "PsyrA",
+          "presence": "mandatory",
+          "parameters": {},
+          "exchangeable": [
+            "PsyrTA__PsyrA"
+          ]
+        },
+        {
+          "name": "PsyrT",
+          "presence": "mandatory",
+          "parameters": {},
+          "exchangeable": [
+            "PsyrTA__PsyrT"
+          ]
+        }
+      ],
+      "parameters": {
+        "transitivity": 5,
+        "min_mandatory": 2,
+        "min_total": 2
+      }
+    }
+  ],
+  "parameters": {
+    "transitivity": 0,
+    "window": 1,
+    "min_mandatory": 1,
+    "min_total": 1
+  }
+}

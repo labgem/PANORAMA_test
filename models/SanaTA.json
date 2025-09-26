@@ -1,0 +1,38 @@
+{
+  "name": "SanaTA",
+  "func_units": [
+    {
+      "name": "SanaTA",
+      "presence": "mandatory",
+      "families": [
+        {
+          "name": "SanaA",
+          "presence": "mandatory",
+          "parameters": {},
+          "exchangeable": [
+            "SanaTA__SanaA"
+          ]
+        },
+        {
+          "name": "SanaT",
+          "presence": "mandatory",
+          "parameters": {},
+          "exchangeable": [
+            "SanaTA__SanaT"
+          ]
+        }
+      ],
+      "parameters": {
+        "transitivity": 5,
+        "min_mandatory": 2,
+        "min_total": 2
+      }
+    }
+  ],
+  "parameters": {
+    "transitivity": 0,
+    "window": 1,
+    "min_mandatory": 1,
+    "min_total": 1
+  }
+}
