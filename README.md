@@ -10,7 +10,7 @@ This repository contains test datasets for PANORAMA project CI testing and valid
 
 - **3 Vibrio pangenomes** from GTDB RefSeq PanGBank collection (in `pangenomes/`)
 - **9 defense system models** from [Defense Finder](https://github.com/mdmparis/defense-finder) (in `models/`)
-- **34 HMM profiles** from [Defense Finder](https://github.com/mdmparis/defense-finder) for model annotation (in `hmm/`) 
+- **34 HMM profiles** from [Defense Finder](https://github.com/mdmparis/defense-finder) for model annotation (in `hmms/`) 
 
 
 
@@ -19,4 +19,4 @@ This repository contains test datasets for PANORAMA project CI testing and valid
 This repository is licensed under the CECILL License.
 
 ## Contact
-For questions or suggestions regarding this dataset repository, please open an issue or contact the repository maintainers.
+For questions or suggestions regarding this dataset repository, please open an issue.
