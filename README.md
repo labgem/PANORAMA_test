@@ -16,7 +16,7 @@ This repository contains test datasets for PANORAMA project CI testing and valid
 
 
 ## License
-This repository is licensed under the CECILL License. By contributing to this repository, you agree to license your contributions under the same license.
+This repository is licensed under the CECILL License.
 
 ## Contact
 For questions or suggestions regarding this dataset repository, please open an issue or contact the repository maintainers.
