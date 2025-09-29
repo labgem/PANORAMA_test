@@ -21,7 +21,13 @@ git clone https://github.com/labgem/PANORAMA_test.git
 cd PANORAMA_test
 ```
 
-### Running PANORAMA Commands
+### Getting Information on Input Pangenomes
+
+```bash
+panorama info -p pangenomes_list.tsv -o output --status --content 
+```
+
+### Running System Detection
 
 1. **Format HMM profiles:**
 ```bash
